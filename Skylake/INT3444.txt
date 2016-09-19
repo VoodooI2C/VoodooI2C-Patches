@@ -1,0 +1,50 @@
+# INT3444 (I2C2) Controller Patch for VoodooI2C on Skylake
+# Written and maintained by Alexandre Daoud
+
+into_all scope label _SB.PCI0.I2C2 name_adr 0x00150002 remove_entry;
+into_all scope label _SB.PCI0.I2C2 name_hid INT3444 remove_entry;
+
+into device label I2C2 parent_label _SB.PCI0 insert
+begin
+Name (_HID, "INT3444")  // _HID: Hardware ID\n
+            Method (_HRV, 0, NotSerialized)  // _HRV: Hardware Revision\n
+            {\n
+                Return (LHRV (SB12))\n
+            }\n
+\n
+            Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings\n
+            {\n
+                Return (LCRS (SMD2, SB02, SIR2))\n
+            }\n
+\n
+            Method (_PSC, 0, NotSerialized)  // _PSC: Power State Current\n
+            {\n
+                GETD (SB12)\n
+            }\n
+\n
+            Method (_PS0, 0, NotSerialized)  // _PS0: Power State 0\n
+            {\n
+                LPD0 (SB12)\n
+            }\n
+\n
+            Method (_PS3, 0, NotSerialized)  // _PS3: Power State 3\n
+            {\n
+                LPD3 (SB12)\n
+            }\n
+\n
+            Method (_STA, 0, NotSerialized)  // _STA: Status\n
+            {\n
+                Return (LSTA (SMD2))\n
+            }\n
+\n
+            Name (_ADR, 0x00150002)  // _ADR: Address\n
+            Method (_DSM, 4, Serialized)  // _DSM: Device-Specific Method\n
+            {\n
+                If (PCIC (Arg0))\n
+                {\n
+                    Return (PCID (Arg0, Arg1, Arg2, Arg3))\n
+                }\n
+\n
+                Return (Zero)\n
+            }\n
+end;
