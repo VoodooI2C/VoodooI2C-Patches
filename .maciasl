@@ -1,7 +1,7 @@
-[Has/Broad] Windows 7 Patch	Haswell-Broadwell/Windows_7.txt
-[Has/Broad] Windows 8 Patch	Haswell-Broadwell/Windows_8.txt
-[Has/Broad] Windows 8.1 Patch	Haswell-Broadwell/Windows_8.1.txt
-[Has/Broad] Windows 10 Patch	Haswell-Broadwell/Windows_10.txt
+[Windows] Windows 7 Patch		Windows/Windows_7.txt
+[Windows] Windows 8 Patch		Windows/Windows_8.txt
+[Windows] Windows 8.1 Patch		Windows/Windows_8.1.txt
+[Windows] Windows 10 Patch		Windows/Windows_10.txt
 [Sky] INT3442 Controller Patch	Skylake/INT3442.txt
 [Sky] INT3443 Controller Patch	Skylake/INT3443.txt
 [Sky] INT3444 Controller Patch	Skylake/INT3444.txt
