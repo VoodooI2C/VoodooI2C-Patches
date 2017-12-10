@@ -2,7 +2,4 @@
 [Windows] Windows 8 Patch		Windows/Windows_8.txt
 [Windows] Windows 8.1 Patch		Windows/Windows_8.1.txt
 [Windows] Windows 10 Patch		Windows/Windows_10.txt
-[Sky] INT3442 Controller Patch	Skylake/INT3442.txt
-[Sky] INT3443 Controller Patch	Skylake/INT3443.txt
-[Sky] INT3444 Controller Patch	Skylake/INT3444.txt
-[Sky] INT3445 Controller Patch	Skylake/INT3445.txt
+[Controllers] I2C Controllers [SKL+]	Controllers/controllers.txt
