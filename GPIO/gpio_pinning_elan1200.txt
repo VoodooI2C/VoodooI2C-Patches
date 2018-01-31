@@ -6,7 +6,7 @@ into device label ETPD insert begin
 Name (SBFG, ResourceTemplate ()\n
     {\n
         GpioInt (Level, ActiveLow, ExclusiveAndWake, PullDefault, 0x0000,\n
-            "\\_SB.PCI0.GPI0", 0x00, ResourceConsumer, ,
+            "\\_SB.PCI0.GPI0", 0x00, ResourceConsumer, ,\n
             )\n
             {   // Pin list\n
                 0x47\n
