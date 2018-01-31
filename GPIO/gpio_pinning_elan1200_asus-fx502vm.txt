@@ -12,6 +12,7 @@ Name (SBFG, ResourceTemplate ()\n
                 0x47\n
             }\n
     })\n
+    
 end;
 
 into method label _CRS parent_label ETPD replace_content begin
