@@ -4,3 +4,4 @@
 [Windows] Windows 10 Patch				Windows/Windows_10.txt
 [Controllers] I2C Controllers [SKL]		Controllers/controllers.txt
 [GPIO] GPIO Controller Enable [SKL+]	GPIO/status.txt
+[GPIO] GPIO Pinning - ELAN1200 (ASUS FX502VM) GPIO/gpio_pinning_elan1200_asus-fx502vm.txt
