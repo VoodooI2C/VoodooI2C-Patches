@@ -144,7 +144,7 @@ into scope label _SB.PCI0.I2C0 replace_content begin
             {\n
                 Return (LSTA (SMD0))\n
             }\n
-}\n
+\n
 end;
 
 into scope label _SB.PCI0.I2C1 replace_content begin
@@ -164,7 +164,7 @@ into scope label _SB.PCI0.I2C1 replace_content begin
             {\n
                 Return (LSTA (SMD1))\n
             }\n
-}\n
+\n
 end;
 
 into scope label _SB.PCI0.I2C2 replace_content begin
@@ -184,7 +184,7 @@ into scope label _SB.PCI0.I2C2 replace_content begin
             {\n
                 Return (LSTA (SMD2))\n
             }\n
-}\n
+\n
 end;
 into scope label _SB.PCI0.I2C3 replace_content begin
 
@@ -203,7 +203,7 @@ into scope label _SB.PCI0.I2C3 replace_content begin
             {\n
                 Return (LSTA (SMD3))\n
             }\n
-}\n
+\n
 end;
 
 into scope label _SB.PCI0.I2C4 replace_content begin
@@ -223,7 +223,7 @@ into scope label _SB.PCI0.I2C4 replace_content begin
             {\n
                 Return (LSTA (SMD4))\n
             }\n
-}\n
+\n
 end;
 
 into scope label _SB.PCI0.I2C5 replace_content begin
@@ -243,5 +243,5 @@ into scope label _SB.PCI0.I2C5 replace_content begin
             {\n
                 Return (LSTA (SMD5))\n
             }\n
-}\n
+\n
 end;
