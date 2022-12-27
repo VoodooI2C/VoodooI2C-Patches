@@ -1,5 +1,5 @@
 /*  
-    OpenCore SSDT patch for GPIO Pinning on ELAN1301 trackpad by LeongWZ
+    SSDT patch for GPIO Pinning on ELAN1301 trackpad by LeongWZ
     Confirmed working on OpenCore ASUS UX431FA
     
     Compile this .dsl file into .aml file using MaciASL and
