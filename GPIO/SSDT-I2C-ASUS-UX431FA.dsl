@@ -12,34 +12,34 @@
     and have to be converted into hex values; use base64 to hex converters found online)
     ==================================
     <dict>
-        <key>Base</key>
-	    <string></string>
-	    <key>BaseSkip</key>
-	    <integer>0</integer>
-	    <key>Comment</key>
-	    <string>Rename TPD0._CRS to TPD0.XCRS</string>
-	    <key>Count</key>
-	    <integer>0</integer>
-	    <key>Enabled</key>
-	    <true/>
-	    <key>Find</key>
-	    <data>FCxfQ1JTAA==</data>
-	    <key>Limit</key>
-	    <integer>0</integer>
-	    <key>Mask</key>
-	    <data></data>
-	    <key>OemTableId</key>
-	    <data></data>
-	    <key>Replace</key>
-	    <data>FCxYQ1JTAA==</data>
-	    <key>ReplaceMask</key>
-	    <data></data>
-	    <key>Skip</key>
-	    <integer>0</integer>
-	    <key>TableLength</key>
-	    <integer>0</integer>
-	    <key>TableSignature</key>
-	    <data></data>
+    	<key>Base</key>
+	<string></string>
+	<key>BaseSkip</key>
+	<integer>0</integer>
+	<key>Comment</key>
+	<string>Rename TPD0._CRS to TPD0.XCRS</string>
+	<key>Count</key>
+	<integer>0</integer>
+	<key>Enabled</key>
+	<true/>
+	<key>Find</key>
+	<data>FCxfQ1JTAA==</data>
+	<key>Limit</key>
+	<integer>0</integer>
+	<key>Mask</key>
+	<data></data>
+	<key>OemTableId</key>
+	<data></data>
+	<key>Replace</key>
+	<data>FCxYQ1JTAA==</data>
+	<key>ReplaceMask</key>
+	<data></data>
+	<key>Skip</key>
+	<integer>0</integer>
+	<key>TableLength</key>
+	<integer>0</integer>
+	<key>TableSignature</key>
+	<data></data>
     </dict>
     ==================================
 */
